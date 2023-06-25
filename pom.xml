@@ -95,19 +95,19 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.92.61.57:8181/mylandmarktech/repository/tesla-releases/</url>
+	      <url>http://54.234.224.46:8081/repository/safcom-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.92.61.57:8181/mylandmarktech/repository/tesla-snapshots/</url>
+	      <url>http://54.234.224.46:8081/repository/safcom-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla</finalName>
+		<finalName>diko</finalName>
 		
 		<plugins>
 			<plugin>
